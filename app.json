@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "PopUp",
+    "slug": "PopUp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./Assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./Assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./Assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.codewithtalha.PopUp"
+    },
+    "web": {
+      "favicon": "./Assets/favicon.png"
+    }
+  }
+}
